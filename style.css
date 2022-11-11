@@ -18,6 +18,7 @@
     --light-blue: #2D9CDB;
     --color-red: #EB5757;
     --faint-blue: #F2F8FB;
+    --color-comet: #5E6282;
 }
 
 body {
@@ -395,9 +396,63 @@ small {
 
 .get-started {
     text-align: center;
-    margin: 10%;
+    margin: 10% 8%;
     padding: 4% 0;
     line-height: 60px;
     border-radius: 20px;
     background-color: var(--faint-blue);
+}
+
+
+
+/* bottom section */
+
+.bottom-section {
+    display: flex;
+}
+
+
+.left {
+    margin-left: 3%;
+}
+.left .logo {
+    width: 27%;
+}
+.left p {
+    font-size: 0.8rem;
+    width: 42%;
+}
+.nav-icons img {
+    width: 8%;
+}
+
+
+
+.right {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+}
+.right h3 {
+    font-weight: 700;
+    margin-bottom: 20%;
+}
+.right ul {
+    flex-direction: column;
+}
+.right li {
+    line-height: 30px;
+    color: var(--color-comet);
+}
+
+
+
+/* footer */
+
+footer {
+    margin: 2% 0;
+    font-size: 0.9rem;
+    text-align: center;
+    color: var(--color-comet);
 }
