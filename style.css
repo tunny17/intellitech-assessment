@@ -17,6 +17,7 @@
     --color-blue: #0077B5;
     --light-blue: #2D9CDB;
     --color-red: #EB5757;
+    --faint-blue: #F2F8FB;
 }
 
 body {
@@ -390,3 +391,13 @@ small {
 
 
 
+/* get started section */
+
+.get-started {
+    text-align: center;
+    margin: 10%;
+    padding: 4% 0;
+    line-height: 60px;
+    border-radius: 20px;
+    background-color: var(--faint-blue);
+}
