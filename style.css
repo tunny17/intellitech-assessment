@@ -8,6 +8,7 @@
 }
 
 :root {
+    --blue-opacity: #3C64B1;
     --color-purple: #BB6BD9;
     --color-orange: #F2994A;
     --darker-grey: #3D3D3D;
@@ -31,6 +32,11 @@ section {
     margin: 10px 8%;
 }
 
+h4 {
+    font-size: 1.1rem;
+    color: var(--color-blue);
+}
+
 p {
     color: var(--color-grey);
     line-height: 160%;
@@ -47,7 +53,6 @@ li {
     list-style-type: none;
     color: var(--color-grey);
 }
-
 
 button {
     color: #fff;
@@ -304,3 +309,84 @@ small {
 .learn-more4 {
     color: var(--color-red);
 }
+
+
+
+
+/* choose section */
+.choose-section {
+    margin: 0;
+}
+.choose-section::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+    background-color: var(--blue-opacity);
+    opacity: 0.1;
+    z-index: -100;
+}
+.choose-text {
+    text-align: center;
+}
+.choose-text h4 {
+    margin: 4% 0 1% 0;
+}
+.choose-text h2 {
+    color: var(--darker-grey);
+    font-size: 2rem;
+    padding: 0 32%;
+    line-height: 45px;
+}
+
+
+/* the choose logos */
+.choose {
+    margin-top: 5%;
+    margin-left: 10%;
+    display: flex;
+}
+.choose div {
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+.choose img {
+    width: 70px;
+    margin-left: 21%;
+}
+.choose div h3 {
+    margin-left: 20%;
+}
+.choose div p {
+    width: 63%;
+    text-align: center; 
+}
+
+
+
+/* customers section */
+
+.customers {
+    margin-top: 15%;
+}
+.customers-text {
+    text-align: center;
+}
+.customers-text h3 {
+    font-size: 1.3rem;
+    margin: 2% 0;
+}
+
+.customers-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.customers-icon img {
+    width: 17%;
+    height: 17%;
+}
+
+
+
