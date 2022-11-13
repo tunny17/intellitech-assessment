@@ -496,26 +496,27 @@ footer {
     padding-bottom: 5%;
 }
 .software-dev div {
-    margin-left: 10%;
+    margin-left: 7%;
 }
 .software-dev img {
     width: 47%;
 }
 .software-dev h4 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: #3D3D3D;
     margin-bottom: 5%;
 }
 .software-dev p {
     width: 73%;
-    font-size: 1.2rem;
+    text-align: left;
+    font-size: 1.3rem;
     line-height: 35px;
     color: #3D3D3D;
 }
 .service-section button {
-    margin-left: 50%;
+    margin-left: 45%;
     margin-bottom: 10%;
-    padding: 15px 30px;
+    padding: 17px 60px;
 }
 
 
@@ -525,5 +526,13 @@ footer {
     margin: 0;
     background-color: #fff;
 }
+.support div {
+    margin-left: 1%;
+}
 
-.support-
+.support p {
+    width: 77%;
+    font-size: 1.2rem;
+    line-height: 35px;
+    color: #3D3D3D;
+}
