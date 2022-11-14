@@ -749,3 +749,65 @@ footer {
     font-weight: 400;
     line-height: 24px;
 }
+
+
+
+/* thoughts and words page */
+
+.hero-sect {
+    width: 100%;
+    margin-top: 8%;
+}
+.hero-sect h1 {
+    font-size: 3.2rem;
+    font-weight: 300;
+    margin-left: 3%;
+    margin-bottom: 1%;
+    font-family: 'Manrope';
+}
+.hero-sect img {
+    width: 85%;
+    height: 60vh;
+    border-radius: 80px;
+}
+
+.icons-container {
+    width: 100%;
+    height: 10vh;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons-container div {
+    width: 30%;
+}
+.icons-container div ul {
+    width: 85%;
+}
+.icons-container div img {
+    width: 3%;
+    margin-right: 5%;
+}
+.profile,
+.calendar,
+.business 
+{
+    position: relative;
+}
+.profile::before,
+.calendar::before,
+.business::before
+ {
+    content: url(/img/company-page/person.svg);
+    position: absolute;
+    top: -10%;
+    left: -25%;
+}
+.calendar::before {
+    content: url(/img/company-page/calendar.svg);
+}
+.business::before {
+    content: url(/img/company-page/business.svg);
+    left: -40%;
+}
