@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
 /* general styles */
 * {
@@ -8,9 +10,11 @@
 }
 
 :root {
+    --dark-blue: #0A2640;
     --blue-opacity: #3C64B1;
     --color-purple: #BB6BD9;
     --color-orange: #F2994A;
+    --company-grey: #777777;
     --darker-grey: #3D3D3D;
     --color-grey: #4F4F4F;
     --light-grey: #F2F2F2;
@@ -637,3 +641,58 @@ footer {
 
 /* company page */
 
+.company-hero {
+    margin-top: 5%;
+}
+
+.company-hero-container {
+    display: flex;
+    align-items: center;
+}
+
+.company-hero-container img {
+    width: 40%;
+    margin-right: 7%;
+}
+
+.company-hero-container div {
+    margin-top: 15%;
+    line-height: 70px;
+    position: relative;
+}
+.company-hero-container h1 {
+    width: 80%;
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+.company-hero-container h5 {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: underline;
+    color: var(--dark-blue);
+    text-decoration-thickness: 1px;
+}
+.company-hero-container h5:nth-child(4) {
+    color: #000;
+    font-weight: 400;
+    margin-left: 5%;
+    position: relative;
+}
+.company-hero-container h5:nth-child(4)::after {
+    content: url(/img/company-page/chandler-bing.png);
+    position: absolute;
+    top: 14%;
+    left: -6%;
+}
+.company-hero-container span {
+    position: absolute;
+    top: 0.9px;
+    left: 10%;
+    color: var(--company-grey);
+    font-size: 0.9rem;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
