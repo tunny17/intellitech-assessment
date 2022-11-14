@@ -661,7 +661,7 @@ footer {
     line-height: 70px;
     position: relative;
 }
-.company-hero-container h1 {
+.company-hero-container h1 a {
     width: 80%;
     font-size: 3rem;
     font-weight: 400;
