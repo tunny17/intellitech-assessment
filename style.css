@@ -643,6 +643,7 @@ footer {
 
 .company-hero {
     margin-top: 5%;
+    margin-bottom: 10%;
 }
 
 .company-hero-container {
@@ -695,4 +696,56 @@ footer {
     font-family: 'Open Sans', sans-serif;
     text-decoration: underline;
     text-decoration-thickness: 1px;
+}
+
+
+
+
+/* category section  */
+
+.category {
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+}
+.category img {
+    width: 70%;
+}
+.category2 {
+    margin-top: 5%;
+}
+.category1,
+.category2
+ {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.category1 div,
+.category2 div
+ {
+    position: relative;
+}
+.category h5 {
+    margin: 1% 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+}
+.category1 .span1,
+.category2 .span2
+ {
+    position: absolute;
+    top: 63%;
+    left: 20%;
+    color: var(--company-grey);
+    font-size: 0.8rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.category p{
+    width: 50%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
 }
