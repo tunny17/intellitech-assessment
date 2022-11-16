@@ -1079,3 +1079,53 @@ footer {
     margin: 5% 0;
     padding-right: 77%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* software development page */
+
+.software-development-hero {
+    width: 84%;
+    height: 70vh;
+    margin-top: 10%;
+    background-image: url(/img/softwareDev-page/hero.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.software-development-hero::before {
+    content: "";
+    position: absolute;
+    top: 21%;
+    width: 84%;
+    height: 68%;
+    border-radius: 20px;
+    background: rgba(51, 51, 51, 0.6);
+    z-index: 0;
+}
+
+.development-hero-text {
+    position: absolute;
+    top: 47%;
+    left: 30%;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+}
