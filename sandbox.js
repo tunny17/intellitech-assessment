@@ -11,6 +11,13 @@ let openBtn = document.querySelector('button');
 let form = document.querySelector('#quoteForm');
 let closeBtn = document.querySelector('.close-btn')
 
+// grabbing the necessary things needed fot the custom select 
+let select = document.querySelector('#optionsBtn');
+let options = document.querySelector('#options');
+
+
+
+
 // functions for the hover feature
 nav1.addEventListener('mouseover', ()=>{
     drop1.classList.toggle('display');
@@ -21,7 +28,7 @@ nav2.addEventListener('mouseover', ()=>{
 });
 
 
-// setting each function
+// setting each form function
 function openForm() {
     form.classList.add('quote-display');
 }
@@ -30,6 +37,16 @@ function closeForm() {
     form.classList.remove('quote-display');
 }
 
+// function for the custom input
+function showOptions() {
+    options.classList.toggle('options-display');
+}
+
+
+
 // respective event listeners
 openBtn.addEventListener('click', openForm);
 closeBtn.addEventListener('click', closeForm);
+
+// custom input event listener
+select.addEventListener('click', showOptions);
