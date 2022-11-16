@@ -20,13 +20,13 @@
                     <li>
                         <a href="/index.html">Home</a>
                     </li>
-                    <li>
+                    <li id="services">
                         <a href="/service.html">Services</a>
                     </li>
-                    <li>
+                    <li id="products">
                         <a href="/product.html">Products</a>
                     </li>
-                    <li>
+                    <li id="company">
                         <a href="/company.html">Company</a>
                     </li>
                 </ul>
@@ -35,7 +35,89 @@
         <div class="button-container">
             <button>Get a Quote</button>
         </div>
-    </section>  
+    </section>
+
+    
+    <div class="dropdowns">
+        <div class="drop1"  id="drop1">
+            <ul>
+                <li class="port">
+                    <h5>IT Support</h5>
+                    <p>Software and Hardware Support</p>
+                </li>
+                <hr>
+                <li class="ware">
+                    <h5>Software Development</h5>
+                    <p>Web, Mobile and Desktop</p>
+                </li>
+                <hr>
+                <li class="network">
+                    <h5>Networking</h5>
+                    <p>Networking and Security Design</p>
+                </li>
+                <hr>
+                <li class="consult">
+                    <h5>Consultancy</h5>
+                    <p>Support, Management and Procurement</p>
+                </li>
+            </ul>
+        </div>
+        <div class="drop2"  id="drop2">
+            <ul>
+                <li class="blog">
+                    <h5>Blog</h5>
+                    <p>Our ideas and experiences </p>
+                </li>
+                <hr>
+                <li class="about">
+                    <h5>About Us</h5>
+                    <p>Be inspired about our uniqueness </p>
+                </li>
+                <hr>
+                <li class="career">
+                    <h5>Career</h5>
+                    <p>Enhance your knowledge with us</p>
+                </li>
+                <hr>
+                <li class="contact">
+                    <h5>Contact Us</h5>
+                    <p>Get in touch with us</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="quote-sect" id="quoteForm">
+        <form action="">
+            <div class="form-header">
+                <h1>Get a Quote</h1>
+                <img src="/img/home-page/close.svg" alt=""  class="close-btn">
+            </div>
+
+            <div class="form-control">
+                <input type="text" name="" id="" placeholder="Full name">
+
+                <div class="email-phone">
+                    <input type="number" name="" id=""  placeholder="Phone Number">
+                    <input type="email" name="" id=""   placeholder="Email Address">
+                </div>
+
+                <div class="select">
+                    <select name="" id="">
+                        <option value="">Choose a service</option>
+                        <option value="">Network Design</option>
+                        <option value="">Web Development</option>
+                    </select>
+                </div>
+
+                <br>
+                <textarea name="" id="" cols="60" rows="17"></textarea>
+                <br>
+
+                <button type="button" id="myBtn">Get a Quote</button>
+            </div>
+        </form>
+    </section>
     
     <section class="service-hero">
         <h1>Services</h1>
@@ -152,8 +234,6 @@
         <footer>Copyright © 2022. All Rights Reserved.</footer>
     </div>
 
-
-
-
+    <script src="/sandbox.js"></script>
 </body>
 </html>

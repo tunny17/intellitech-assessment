@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
 
 /* general styles */
 * {
@@ -131,12 +130,25 @@ button:hover {
 }
 
 .dropdowns {
-    margin-top: 10%;
+    position: fixed;
+    top: 10%;
+    width: 100%;
 }
-.drop1 ul {
+.drop1,
+.drop2,
+.drop3
+ {
+    display: none;
+}
+.display {
+    display: block;
+}
+.drop1 ul,
+.drop2 ul,
+.drop3 ul
+ {
     position: absolute;
-    left: 40%;
-    top: 12%;
+    left: 38%;
     flex-direction: column;
     padding: 20px;
     padding-left: 5%;
@@ -144,19 +156,34 @@ button:hover {
     background: #FFFFFF;
     filter: drop-shadow(0px 4px 20px rgba(124, 122, 122, 0.2));
 }
-.drop1 li {
+.drop2 ul {
+    left: 59%;
+}
+.drop1 li,
+.drop2 li,
+.drop3 li
+ {
     padding: 10px;
     margin: 2% 0;
 }
-.drop1 ul hr {
+.drop1 ul hr,
+.drop2 ul hr,
+.drop3 ul hr
+ {
     width: 100%;
 }
-.drop1 h5 {
+.drop1 h5,
+.drop2 h5,
+.drop3 h5
+ {
     font-size: 1rem;
     font-weight: 300;
     color: var(--color-blue);
 }
-.drop1 p {
+.drop1 p,
+.drop2 p,
+.drop3 p
+ {
     font-size: 0.6rem;
 }
 .port,
@@ -187,11 +214,148 @@ button:hover {
 }
 
 
+.blog,
+.about,
+.career,
+.contact
+ {
+    position: relative;
+}
+.blog::before,
+.about::before,
+.career::before,
+.contact::before {
+    content: url(/img/home-page/blog-dropdown.png);
+    position: absolute;
+    top: 20%;
+    left: -30%;
+    zoom: 20%;
+}
+.about::before {
+    content: url(/img/home-page/about-dropdown.png);
+}
+.career::before {
+    content: url(/img/home-page/career-dropdown.png);
+}
+.contact::before {
+    content: url(/img/home-page/contact-dropdown.png);
+}
+
+
+
+
+/* quote section */
+
+.quote-sect {
+    position: absolute;
+    top: -2%;
+    left: 17%;
+    width: 50%;
+    height: 100vh;
+    border-radius: 20px;
+    z-index: 10000000;
+    display: none;
+}
+.quote-display {
+    display: block;
+}
+.quote-sect form {
+    margin-top: 20%;
+    background-color: #fff;
+    border-radius: 20px;
+    height: 105vh;
+    filter: drop-shadow(0px 4px 20px rgba(124, 122, 122, 0.2));
+}
+.quote-sect::before {
+    content: "";
+    position: absolute;
+    left: -100%;
+    top: 0;
+    margin: 0;
+    width: 1000%;
+    height: 600vh;
+    background: rgba(0, 0, 0, .3);
+    z-index: 0;
+}
+.form-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: var(--color-blue);
+}
+.close-btn {
+    cursor: pointer;
+    margin-right: 4%;
+}
+.form-header h1 {
+    margin-left: 4%;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    position: relative;
+}
+.form-control {
+    margin: 5%;
+}
+.form-control input {
+    border: none;
+    outline: none;
+    font-family: 'DM Sans';
+    padding: 2% 3%;
+    width: 100%;
+    margin: 2% 0;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.05);
+}
+.email-phone {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.email-phone input {
+    width: 48%;
+}
+.form-control select {
+    margin: 1% 0;
+    width: 100%;
+    border: none;
+    padding: 2.5%;
+    appearance: none;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.08);
+    position: relative;
+}
+.select::after {
+    content: url(/img/home-page/select-arrow.png);
+    zoom: 20%;
+    position: absolute;
+    top: 35.5%;
+    cursor: pointer;
+    left: 90%;
+}
+option {
+    margin: 2%;
+}
+.form-control textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+
+
 
 /* hero-section */
 
 .hero-section {
-    margin-top: 8%;
+    margin-top: 10%;
 }
 .hero {
     display: flex;
@@ -645,7 +809,6 @@ footer {
     top: 44%;
     left: 34%;
     text-align: center;
-    z-index: 10000000;
 }
 
 
