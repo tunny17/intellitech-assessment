@@ -136,6 +136,7 @@ button:hover {
     position: fixed;
     top: 10%;
     width: 100%;
+    z-index: 1;
 }
 .drop1,
 .drop2,
@@ -1199,4 +1200,38 @@ figcaption {
     padding: 0 31%;
     font-size: 0.8rem;
     font-weight: 300;
+}
+
+
+
+/* it support page */
+
+.it-support {
+    background-image: url(/img/itSupport-page/hero.png);
+}
+.it-support-text {
+    margin-left: 10%;
+}
+.it-support-category {
+    margin: 3% 0;
+    padding: 3% 8%;
+    background: var(--light-grey);
+}
+.it-support-category img {
+    width: 10%;
+}
+.it-support-category h3 {
+    color: #000;
+}
+.support-hero {
+    text-align: center;
+    margin-bottom: -2%;
+}
+.support-hero h3 {
+    font-size: 1.5rem;
+    color: var(--color-blue);
+    font-family: 'Montserrat';
+}
+.support-hero p {
+    font-size: 0.6rem;
 }
