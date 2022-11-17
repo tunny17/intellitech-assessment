@@ -1294,3 +1294,79 @@ figcaption {
     top: 10%;
     left: -3%;
 }
+
+
+
+
+/* consultancy page */
+
+.consultancy-hero {
+    display: flex;
+    margin-top: 10%;
+}
+.consultancy-hero img {
+    width: 80%;
+}
+.consultancy-hero div:nth-child(2) {
+    margin-left: -4%;
+}
+.consultancy-hero h3 {
+    margin-top: 10%;
+    font-size: 2.5rem;
+    color: var(--color-blue);
+}
+.consultancy-hero p {
+    width: 70%;
+    line-height: 30px;
+    font-size: 0.9rem;
+}
+
+
+.consultancy-banner {
+    height: 45vh;
+    margin: 5% 0;
+    display: flex;
+    align-items: center;
+    background: var(--color-blue);
+    position: relative;
+}
+.consultancy-banner img {
+    position: absolute;
+    width: 30%;
+    top: 15%;
+    left: 40%;
+}
+.consultancy-banner p {
+    color: #fff;
+    margin-top: 3%;
+    width: 33%;
+    margin-left: 20%;
+}
+
+
+.consultancy3 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+}
+.consultancy3 div:not(:last-child) {
+    margin-right: 5%;
+}
+.consultancy3 h3 {
+    margin: 1% 0;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    color: var(--color-blue);
+}
+.consultancy3 p {
+    font-size: 0.9rem;
+}
+.consultancy3 ul {
+    margin-left: 6%;
+    margin-top: 5%;
+    flex-direction: column;
+}
+.consultancy3 li {
+    font-weight: 500;
+    list-style-type: disc;
+}
