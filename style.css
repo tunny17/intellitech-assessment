@@ -1235,3 +1235,62 @@ figcaption {
 .support-hero p {
     font-size: 0.6rem;
 }
+
+
+
+
+
+
+/* network and security page */
+
+
+.network-and-security {
+    background: url(/img/networkSecurity-page/hero.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.network-and-security::before {
+    top: 20.5%;
+}
+
+.network-category img {
+    width: 10%;
+}
+.network-category h3 {
+    font-size: 1rem;
+    padding: 1% 20%;
+}
+
+.network-security-text {
+    margin: 5% 0;
+    padding: 10% 10% 10% 9%;
+    display: flex;
+    background: var(--light-grey);
+}
+.network-security-text div {
+    width: 100%;
+}
+.network-security-text h3 {
+    margin: 1% 0;
+    color: var(--color-blue);
+}
+.network-security-text p {
+    font-size: 0.9rem;
+}
+.network-security-text ul {
+    flex-direction: column;
+    padding-left: 5%;
+}
+.network-security-text li {
+    line-height: 30px;
+    position: relative;
+    padding-left: 1%;
+    align-items: center;
+}
+.network-security-text li::before {
+    content: url(/img/networkSecurity-page/marker.svg);
+    position: absolute;
+    top: 10%;
+    left: -3%;
+}
