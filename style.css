@@ -1491,3 +1491,25 @@ figcaption {
     width: 13%;
     margin-left: -15%;
 }
+
+
+
+
+/* store rep page */
+
+.storerep-hero {
+    background-image: url(/img/product-page/storerep/hero.png);
+    background-size: cover;
+    height: 60vh;
+    zoom: 100%;
+}
+.store-hero-text h3{
+    padding: 2% 26%;
+}
+.storerep-category {
+    margin-left: 10%;
+}
+.storerep-category div {
+    width: 100%;
+    justify-content: space-between;
+}
