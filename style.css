@@ -1459,3 +1459,35 @@ figcaption {
     display: flex;
     justify-content: space-between;
 }
+
+
+
+
+/* hotel rep pages */
+
+.hotel-rep-hero {
+    background-image: url(/img/product-page/hotelrep/hero.png);
+    background-size: cover;
+    height: 70vh;
+}
+.hotel-hero-text {
+    zoom: 70%;
+    top: 37%;
+    left: 5%;
+    line-height: 50px;
+    text-align: center;
+}
+.hotel-rep-hero::before {
+    all: unset;
+}
+.hotel-hero-text h1 {
+    font-size: 4rem;
+    font-family: 'Montserrat';
+}
+.hotel-hero-text h3 {
+    padding: 2% 26%;
+}
+.hotelrep-category img {
+    width: 13%;
+    margin-left: -15%;
+}
