@@ -1376,5 +1376,51 @@ figcaption {
 /* sales rep page */
 
 .sales-rep-hero {
-    background-image: url();
+    background-image: url(/img/product-page/salesrep/salesrephero.png);
+    height: 50vh;
+}
+
+.sales-hero-text {
+    zoom: 70%;
+    top: 27%;
+    left: 5%;
+    line-height: 50px;
+    text-align: center;
+}
+
+.sales-rep-hero::before {
+    all: unset;
+}
+
+.sales-hero-text h1 {
+    font-family: 'Montserrat';
+}
+.sales-hero-text h3 {
+    padding: 2% 27%;
+}
+
+
+.salesrep figcaption {
+    padding: unset;
+}
+.salesrep-category ul {
+    padding-left: 5%;
+    flex-direction: column;
+}
+.salesrep-category li {
+    line-height: 20px;
+    list-style: disc;
+    text-align: left;
+}
+.salesrep-category img {
+    width: 13%;
+    margin-left: -40%;
+}
+.salesrep-category h3 {
+    font-family: 'Montserrat';
+    padding: 1% 0% 1% 23%;
+    text-align: left;
+}
+.sales-button {
+    margin: 5% 45%;
 }
