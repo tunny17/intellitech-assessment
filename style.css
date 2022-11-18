@@ -1424,3 +1424,38 @@ figcaption {
 .sales-button {
     margin: 5% 45%;
 }
+
+
+
+
+
+
+
+
+
+
+
+.biro-hero {
+    background-image: url(/img/product-page/biro/birohero.png);
+    height: 60vh;
+}
+
+.biro-category img {
+    width: 15%;
+    margin: 0;
+    margin-left: -12%;
+}
+.biro-category h3 {
+    text-align: unset;
+    margin-left: -35%;
+}
+
+.fifth-figure {
+    margin-left: 12%;
+}
+.fifth {
+    width: 120%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
