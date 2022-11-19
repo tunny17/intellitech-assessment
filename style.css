@@ -1607,9 +1607,11 @@ figcaption {
     height: 50vh;
 }
 .partners {
+    margin: 10% 10%;
     text-align: center;
 }
 .partners h3 {
+    font-size: 1.3rem;
     margin-bottom: -5%;
     color: var(--color-blue);
 }
