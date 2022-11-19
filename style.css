@@ -12,6 +12,7 @@
 }
 
 :root {
+    --color-green: #65E4A3;
     --color-black: #080809;
     --dark-blue: #0A2640;
     --blue-opacity: #3C64B1;
@@ -726,7 +727,23 @@ small {
 }
 .right li {
     line-height: 30px;
+    font-weight: 500;
     color: var(--color-comet);
+}
+.careers-li {
+    position: relative;
+}
+.careers-li::after {
+    content: 'Hiring!';
+    position: absolute;
+    top: 0;
+    left: 66%;
+    padding: 2% 15%;
+    font-weight: 700;
+    font-family: 'Open Sans';
+    color: var(--dark-blue);
+    background-color: var(--color-green);
+    border-radius: 20px;
 }
 
 
@@ -1562,7 +1579,7 @@ figcaption {
 }
 .flex-row .about-image {
     width: 80%;
-    margin-top: 5%;
+    margin-top: 1%;
     margin-right: 10%;
 }
 .flex-row p {
