@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
 /* general styles */
@@ -12,6 +12,7 @@
 }
 
 :root {
+    --color-black: #080809;
     --dark-blue: #0A2640;
     --blue-opacity: #3C64B1;
     --color-purple: #BB6BD9;
@@ -715,6 +716,8 @@ small {
     margin-right: 5%;
 }
 .right h3 {
+    font-family: 'Poppins';
+    color: var(--color-black);
     font-weight: 700;
     margin-bottom: 20%;
 }
