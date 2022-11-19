@@ -1531,3 +1531,65 @@ figcaption {
     width: 100%;
     justify-content: space-between;
 }
+
+
+
+/* company about us page */
+.about-us-hero-section {
+    margin: 8%;
+}
+.about-us-hero-section h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 25%;
+    color: var(--darker-grey);
+}
+.about-us-hero-section div {
+    width: 100%;
+}
+.flex-row {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-row div {
+    margin-top: 0;
+}
+.flex-row .about-image {
+    width: 80%;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+.flex-row p {
+    padding-right: 112px;
+    line-height: 30px;
+}
+.flex-row h4 {
+    font-size: 1.3rem;
+    margin: 2% 0;
+    font-weight: 500;
+}
+
+.about-us-choose::before {
+    background-color: unset;
+}
+
+.about-us-goals {
+    margin: 10% 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.about-us-goals img {
+    width: 30%;
+    height: 50vh;
+}
+.partners {
+    text-align: center;
+}
+.partners h3 {
+    margin-bottom: -5%;
+    color: var(--color-blue);
+}
